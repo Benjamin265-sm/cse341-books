@@ -1,6 +1,6 @@
 import app from "./app.js";
 
-PORT = process.env.PORT;
+ PORT = process.env.PORT;
 
 if (!PORT) {
     throw new Error('PORT is not defined. Make sure your local npm scripts reference the .env file with --env-file=.env, or define PORT in your hosted environment settings.');
